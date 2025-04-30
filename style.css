@@ -58,8 +58,6 @@ a:hover {
   pointer-events: none;
   z-index: 1;
 }
-
-
 @keyframes flicker {
   0% { opacity: 1; }
   5% { opacity: 0.4; }
@@ -71,4 +69,22 @@ a:hover {
   45% { opacity: 0.4; }
   60% { opacity: 1; }
   100% { opacity: 0.8; }
+}
+/* Project Block Styling */
+.project {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.project h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: #884b74;
+  font-size: 1.2rem;
+}
+
+.project ul {
+  padding-left: 1.2rem;
+  margin-top: 0.5rem;
 }
